@@ -11,8 +11,10 @@ package javaex1;
  */
 public class Person {
     private String name;
+	private int num;
     public Person(){
         name ="No name yet";
+		num=1;
     }
     public Person(String initialName){
         name=initialName;
